@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: com.ism.satellite.service.SatelliteServiceTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.620 s <<< FAILURE! -- in com.ism.satellite.service.SatelliteServiceTest
+com.ism.satellite.service.SatelliteServiceTest.delete_Success -- Time elapsed: 0.003 s <<< ERROR!
+com.ism.satellite.exception.custom.NotFoundException: Satellite with id: 1 not found
+	at com.ism.satellite.service.SatelliteServiceImpl.lambda$getById$0(SatelliteServiceImpl.java:34)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.ism.satellite.service.SatelliteServiceImpl.getById(SatelliteServiceImpl.java:34)
+	at com.ism.satellite.service.SatelliteServiceImpl.delete(SatelliteServiceImpl.java:51)
+	at com.ism.satellite.service.SatelliteServiceTest.delete_Success(SatelliteServiceTest.java:159)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

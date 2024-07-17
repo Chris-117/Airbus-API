@@ -1,0 +1,13 @@
+/Users/billingc2/Documents/PracticeCode/Satellite/src/main/java/com/ism/satellite/SatelliteApplication.java
+/Users/billingc2/Documents/PracticeCode/Satellite/src/main/java/com/ism/satellite/controller/SatelliteController.java
+/Users/billingc2/Documents/PracticeCode/Satellite/src/main/java/com/ism/satellite/domain/OrbitType.java
+/Users/billingc2/Documents/PracticeCode/Satellite/src/main/java/com/ism/satellite/domain/Satellite.java
+/Users/billingc2/Documents/PracticeCode/Satellite/src/main/java/com/ism/satellite/domain/SatelliteParameters.java
+/Users/billingc2/Documents/PracticeCode/Satellite/src/main/java/com/ism/satellite/exception/custom/BadRequestException.java
+/Users/billingc2/Documents/PracticeCode/Satellite/src/main/java/com/ism/satellite/exception/custom/NotFoundException.java
+/Users/billingc2/Documents/PracticeCode/Satellite/src/main/java/com/ism/satellite/exception/handler/GlobalExceptionHandler.java
+/Users/billingc2/Documents/PracticeCode/Satellite/src/main/java/com/ism/satellite/repository/SatelliteParametersRepository.java
+/Users/billingc2/Documents/PracticeCode/Satellite/src/main/java/com/ism/satellite/repository/SatelliteRepository.java
+/Users/billingc2/Documents/PracticeCode/Satellite/src/main/java/com/ism/satellite/response/ErrorResponse.java
+/Users/billingc2/Documents/PracticeCode/Satellite/src/main/java/com/ism/satellite/service/SatelliteService.java
+/Users/billingc2/Documents/PracticeCode/Satellite/src/main/java/com/ism/satellite/service/SatelliteServiceImpl.java
