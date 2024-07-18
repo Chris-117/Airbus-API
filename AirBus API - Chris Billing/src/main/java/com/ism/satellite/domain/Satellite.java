@@ -11,7 +11,6 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
-import jakarta.validation.constraints.Future;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import java.time.LocalDateTime;
@@ -36,7 +35,6 @@ public class Satellite  {
     private Long id;
 
     @NotNull(message = "Satellite must have a launch date")
-    @Future
     private LocalDateTime launchDate;
 
     @NotNull(message = "Name is required for Satellite")
